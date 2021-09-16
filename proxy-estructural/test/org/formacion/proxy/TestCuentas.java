@@ -28,7 +28,7 @@ public class TestCuentas {
 	 */
 	@Test
 	public void test_cuenta_nueva() {
-		Cuenta cuentaNueva = new CuentaNormal("cliente"); // cambiar !
+		Cuenta cuentaNueva = new ProxyCuenta("cliente"); // cambiar !
 		assertEquals("cliente", cuentaNueva.getCliente());
 		assertEquals(0, cuentaNueva.getCantidad());
 
