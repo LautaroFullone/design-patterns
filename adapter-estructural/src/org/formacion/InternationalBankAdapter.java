@@ -15,9 +15,6 @@ public class InternationalBankAdapter implements InternationalMoneyOrganization{
     @Override
     public int state(String cliente) {
         Integer state = banco.estado(cliente);
-        if(state != null)
-            return state;
-        else
-            return 0;
+        return (state == null) ? 0 : state;
     }
 }
