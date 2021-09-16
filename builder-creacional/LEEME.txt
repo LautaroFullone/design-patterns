@@ -1,0 +1,7 @@
+Tenemos que utilizar el builder creado en la clase Persona.
+En este caso, el Colegio y el Lugar de trabajo deben ser opcionales
+de tal manera de poder llamar a setMayor y, dado que es mayor poder utilizar el metodo setLugarTrabajo.
+
+Lo mismo para el setMenor, me tiene que permitir utilizar solamente setColegio.
+
+El codigo no deberia dejarme utilizar setMayor(20) y luego setColegio().
